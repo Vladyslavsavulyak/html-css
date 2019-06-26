@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/tooth.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Dental Clinic</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <span><a href="index.html"><b>Dental Clinic</b></a></span>
+        </div>
+    </header>
+    <div id="time">
+        <p>Години роботи</p>
+    </div>
+    <p>пн-пт з 10:00 до 18:00</p>
+    <a href="tel:+380-936-802-370">+38 (093) 680-2370</a>
+    <img src="img/dentist.jpg" alt="client" width="1900">
+    <section>
+        <br>
+        <hr>
+        <h1>Запис на прийом онлайн</h1>
+        <form method="POST" action="https://formspree.io/vladyslav.savulyak@gmail.com">
+            <label>
+            <input type="text" name="Ім'я" placeholder="Ім'я" required>
+         </label>
+            <br>
+
+            <label for="start"></label>
+            <input type="date" id="start" name="Дата" value="2019-06-27" min="2019-06-27" max="2019-12-31">
+            <label>
+               <input type="email" name="Email" placeholder="Email" required>
+         </label>
+            <br>
+            <label> 
+               <input type="tel" name="Номер телефона" placeholder="Номер телефона"
+               pattern="380[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+         </label>
+            <label> 
+              <input type="time" id="appt" name="appt"
+              min="10:00" max="18:00" required>
+        </label>
+            <br>
+            <p><textarea rows="10" cols="45" name="Повідомлення" placeholder="Ваше повідомлення"></textarea></p>
+            <input type="submit">
+            <input type="reset">
+            <hr>
+        </form>
+    </section>
+    <footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2573.63005133614!2d24.038975!3d49.830618!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5d1c9d97fb%3A0x90fc29cf8ec40824!2z0YPQuy4g0JPQtdC90LXRgNCw0LvQsCDQotCw0YDQvdCw0LLRgdC60L7Qs9C-LCAyNiwg0JvRjNCy0L7Qsiwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1sru!2sua!4v1561480332483!5m2!1sru!2sua"
+        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <h3>Офіс</h3>
+    <p>вул.Генерала Тарнавского,26 Львів 79005</p>
+    <h3>E-mail</h3>
+    <p>dentalclinic@gmail.com</p>
+    <h3>Телефон</h3>
+    <p>
+        +380936802370<br>
+        +380680363613
+    </p>
+    <h3>Години роботи</h3>
+    <p>пн-пт<br> з 9:00 до 18:00<br> без перерви</p>
+
+<h2>Додаткова інформація про нас:</h2>
+    
+    <a href="https://www.instagram.com/vllsavulyak.23/" target="_blank"><img src="img/instagram_icon.png"  alt="instagram_icon" width="35" ></a>
+    <a href="https://www.facebook.com/profile.php?id=100009771692325" target="_blank"><img src="img/facebook_icon.png"  alt="facebook_icon" width="35" ></a>
+    <hr>
+    <p>Copyright © 2019 DentalClinic inc.Всі права захищені</p>
+    </footer>
+</body>
+
+</html>
